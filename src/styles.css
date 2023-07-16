@@ -1,0 +1,15 @@
+.world {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.bug {
+  position: absolute;
+  transform-origin: center;
+  width: 64px; 
+  height: auto;
+}
+.bug * {
+  width: 100%;
+  height: 100%;
+}
