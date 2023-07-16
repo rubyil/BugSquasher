@@ -1,0 +1,10 @@
+Bug Squasher Game
+
+1. Bugs appear on the screen and get squashed with a flip-flop
+2. The score is kept and displayed at the Game Over
+3. The game lasts 60 seconds
+4. The original idea for the bugs to run on screen with different speeds and try to get to the center of the screen without getting squashed. Some technical dificulties came up during the development like memorization pattern and object collision calculation which I can solve, having more time.
+5. The code produced is spagetti mostly without realy much seporation of concerns.
+6. The only infamous design pattern used is Factory Pattern, which produces bugs one by one at different screen locations.
+7. Concidering this my first attempt of programming React with TypeScript, it's far from ideal but works without errors and is enough engaging for the player.
+8. If I were to spend more time on it, I would be able to produce a more visualy apealing result and better code, for sure.
